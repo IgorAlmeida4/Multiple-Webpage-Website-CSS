@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 2px;
+  text-align: center;
+  background: beige;
+  color: rgb(54, 54, 54);
+}
+
+.h1 {
+  font-size: 45px;
+}
+
+.h11 {
+  color: rgb(67, 67, 158);
+}
+
+.nav {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 25%; 
+  flex: 25%;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+  border-top: none;
+}
+
+section {   
+  background-color: rgb(255, 187, 0);
+  -ms-flex: 75%;
+  flex: 75%;
+  padding: 100px;
+  height: 200%;
+}
+
+.section1 {  
+  background-color: rgb(205, 231, 255);
+  }
+
+.section2 {
+  background-color: #AAAF4B;
+}
+
+.section3 {
+  background-color: #be7ce8;
+}
+
+.section4 {
+  background-color: #9cabff;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  background: black;
+  color: beige;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.pic {
+  margin-left: 15%;
+  }
+
+ul li  {
+    font-size: 135%;
+    font-style: italic;
+    list-style: none;
+    text-align: left;
+    margin: 15%;
+}
+
+ul li a {
+  font-family: Verdana;
+  color: black;
+}
+
+.img {
+  float: left;
+  margin: 1%;
+}
+
+.end {
+  float: right;
+  margin: 1%;
+}
+
+a {
+  font-family: serif;
+  font-style: italic;
+  list-style: none;
+  color: black;
+  text-decoration: inherit;
+}
+
+.img1 {
+  margin-left: 40px;
+}
+
+h1 {
+  padding: 20px;
+  margin-left: 1px;
+  font-size: 250%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  padding: 5px;
+  color: black;
+  text-justify: auto;
+  margin: auto;
+  padding: 25px;
+}
+
+table {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+th  {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.a {
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
